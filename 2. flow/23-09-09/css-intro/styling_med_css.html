@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling med CSS</title>
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <!--Internt style sheet-->
+    <style>
+    /*selector-property-value*/
+    h1{color: darkblue;font-family: Helvetica, sans-serif;
+    font-family: 'Permanent Marker', cursive;
+
+    /*border padding margin*/
+    border: 2px dashed cadetblue;
+    /*top-right-bottom-left
+    (padding: 30px 18px 25px 32px)*/
+    padding: 30px;
+    margin: 50px;
+    }
+    body{background-color: wheat;
+    }
+    /*background-image: url(frog.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 75%;*/
+    a{
+    color:orange;
+    text-decoration: none;
+    a:link{color:}
+    a:visited{color: turquoise;}
+    a:hover{color: slateblue;
+    background-color:blue} 
+    a:link{color: violet;}
+    }
+        
+p{font-family: 'Permanent Marker', cursive;
+font-weight: bold;
+
+/*em er en relativ måleenhed*/
+font-size: 1em;
+text-align: justify;
+line-height: 1.2em;
+letter-spacing: 4px;
+
+/*hvis man kun vil have store bogstaver:*/
+text-transform: uppercase;
+
+/*for at ændre på bredten
+width: 50%;
+max-width: 50%;}*/
+
+    </style>
+</head>
+
+
+<body>
+    <!--Inline styling-->
+    <h1 style="color:cornflowerblue;">Min overskrift</h1>
+    <p style="color:crimson">Her er en tekst, som jeg selv har fundet på.</p>
+
+    <h1>Min anden overskrift</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Necessitatibus incidunt provident rem veritatis alias 
+        culpa ab iusto aliquam 
+        <a href="https://cphbusiness.mrooms.net/" target="_blank"> laborum dicta minima </a>, assumenda 
+        quia fuga, impedit magnam adipisci tempora, mollitia laboriosam?</p>
+</body>
+</html>
